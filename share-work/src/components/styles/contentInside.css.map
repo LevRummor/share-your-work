@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,GAAG,CAAA;EACC,gBAAgB,EAAE,GAAG;CACxB",
+    "sources": [
+        "contentInside.scss"
+    ],
+    "names": [],
+    "file": "contentInside.css"
+}
