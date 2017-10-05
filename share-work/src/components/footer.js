@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
 import './styles/footer.css'
-import {Row, Col} from 'react-materialize'
 
 class Footer extends Component {
 
     render(){
         return(
-            <footer>
-               footer
+            <footer id='footer'>
+               <h1>footers</h1>
             </footer>
         )
     }

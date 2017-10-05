@@ -1,5 +1,48 @@
 //output: header.css
 
-header{
-    background-color: gray;
+#header{
+    background-color: #2D203B;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.7);
+    p{
+        color: #EDE0FF;
+        font-family: 'Montserrat';
+        font-size: 200%;
+        padding: 0;
+        text-align: center;
+        margin: 2px 0;
+    }
+    img{
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+    }
+    #nav{
+        text-align: center;
+        padding: 10px;
+
+        .icon{
+            position: relative;
+        }
+        a{
+            color: #FAE7FF;
+            padding-left: 20px;
+            padding-right: 20px;
+            float: center;
+            &:hover{
+                color: #5B4475;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    #header{
+        p{
+            text-align: center;
+        }
+        #nav{
+            text-align: center;
+        }
+    }
 }
